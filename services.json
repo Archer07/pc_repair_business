@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hardware Repair",
+    "description": "Lorem ipsum dolor sit amet, delenit senserit signiferumque ut per. Te qui omnes ridens consetetur. His detraxit adipisci at, ei petentium interpretaris pro. ",
+    "price_range": "$100 - $150"
+  },
+  {
+    "name": "Virus Removal",
+    "description": "Dolor sit amet, delenit senserit signiferumque ut per. Te qui omnes ridens consetetur. His detraxit adipisci at, ei petentium interpretaris pro. ",
+    "price_range": "$100 - $200"
+  },
+  {
+    "name": "Pc Tune Up",
+    "description": "Delenit senserit signiferumque ut per. Te qui omnes ridens consetetur. His detraxit adipisci at, ei petentium interpretaris pro. ",
+    "price_range": "$150 - $350"
+  },
+  {
+    "name": "Networking Services",
+    "description": "Signiferumque ut per. Te qui omnes ridens consetetur. His detraxit adipisci at, ei petentium interpretaris pro. ",
+    "price_range": "$220 - $350"
+  }
+]
