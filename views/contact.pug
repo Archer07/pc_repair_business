@@ -1,8 +1,6 @@
 extends layout
 
 block content
-  .jumbotron
-    h1= title
-    p Welcome to #{title}
-    form(method='get' action='/about')
-      button.btn.btn-success(type="submit" ) Read more
+  .container-fluid
+
+    include ./components/contactf.pug

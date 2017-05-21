@@ -1,0 +1,24 @@
+.col-md-6.col-md-offset-2
+ form.form-horizontal(action='/contact/send', method='post')
+    fieldset
+        legend Contact Us
+        .form-group
+            label.col-lg-2.control-label(for="Name") Name
+            .col-lg-10
+                input#inputEmail.form-control(type="text", placeholder="Full Name", name='name', required)
+        .form-group
+            label.col-lg-2.control-label(for="inputEmail") Email
+            .col-lg-10
+                input#inputEmail.form-control(type="email", placeholder="Email", name='email' required)
+
+        .form-group
+            label.col-lg-2.control-label(for="textArea") Textarea
+            .col-lg-10
+                textarea#textArea.form-control(rows="3", required, name='message')
+                span.help-block
+                    | A longer block of help text that breaks onto a new line and may extend beyond one line.
+        .form-group
+            .col-lg-10.col-lg-offset-2
+                button.btn.btn-default(type="reset") Cancel
+
+                button.btn.btn-primary.navbar-right(type="submit") Submit
